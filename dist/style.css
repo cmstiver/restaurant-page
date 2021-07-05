@@ -36,7 +36,6 @@ nav {
     font-size: large;
 }
 img {
-    float: right;
     max-width: 100%;
     border-radius: 10px;
     margin-top: 10px;
@@ -50,4 +49,20 @@ button {
 }
 button:active {     
     background-color:rgb(195, 133, 110);    
+}
+#iconcontainer {
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    top: 7px;
+    left: 10px;
+    font-size: x-large;
+    font-family: cursive;
+    align-items: center;
+}
+#cat {
+    display: flex;
+    justify-content: left;
+    width: 50px;
+    margin-top: 0;
 }

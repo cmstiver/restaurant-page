@@ -19,6 +19,15 @@ function createNav() {
     contact.textContent = "Contact"
     contact.id = "contact"
     document.querySelector('nav').appendChild(contact)
+
+    let newdiv = document.createElement('div')
+    newdiv.id = 'iconcontainer'
+    newdiv.textContent = "Neko Ramen"
+    let cat = document.createElement('img')
+    cat.src = "images/cat.png"
+    cat.id = "cat"
+    document.querySelector('header').appendChild(newdiv)
+    document.getElementById('iconcontainer').appendChild(cat)
 }
 
 function createSiteFrame() {
