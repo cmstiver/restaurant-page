@@ -46,7 +46,8 @@ button {
     background-color: #EEB868;
     border-radius: 20px;
     border: 0px;
-    font-family: cursive;
+    font-family: sans-serif;
+    font-size: large;
 }
 button:active {     
     background-color:rgb(195, 133, 110);    
