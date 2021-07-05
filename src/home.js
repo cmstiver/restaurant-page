@@ -7,7 +7,7 @@ function createHome() {
     content.appendChild(intro)
     let about = document.createElement('div')
     about.classList = 'item'
-    about.textContent = "This project helped me practice my skills with WebPack! You can find the source code here!"
+    about.innerHTML += `This project helped me practice my skills with WebPack! You can find the source code <a href="https://github.com/cmstiver/restaurant-page">here</a>! Also, thanks to <a href="https://www.flaticon.com/search?word=cartoon%20cat&type=icon">flaticon</a> for the cat logo.`
     content.appendChild(about)
 }
 
