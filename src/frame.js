@@ -21,15 +21,8 @@ function createNav() {
     document.querySelector('nav').appendChild(contact)
 }
 
-function createFooter() {
-    let footer = document.createElement('footer')
-    footer.textContent = 'footer'
-    document.querySelector('body').appendChild(footer)
-}
-
 function createSiteFrame() {
     createNav()
-    createFooter()
 }
 
 export default createSiteFrame;
