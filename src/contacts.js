@@ -1,9 +1,14 @@
 
 function createContacts() {
-    let intro = document.createElement('div')
-    intro.classList = 'item'
-    intro.textContent = "You can reach us at 555-555-5555"
-    content.appendChild(intro)
+    let phone = document.createElement('div')
+    phone.classList = 'item'
+    phone.textContent = "Phone Number: 555-555-5555"
+    content.appendChild(phone)
+
+    let email = document.createElement('div')
+    email.classList = 'item'
+    email.textContent = "Email: chayse.stiver@gmail.com"
+    content.appendChild(email)
 }
 
 export default createContacts;
