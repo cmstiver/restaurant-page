@@ -9,7 +9,6 @@ function createIntro() {
 
 function createHome() {
     createIntro()
-    createIntro()
 }
 
 
